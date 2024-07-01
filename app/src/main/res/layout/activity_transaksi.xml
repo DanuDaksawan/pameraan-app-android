@@ -4,9 +4,15 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     android:background="@android:color/white"
     android:padding="16dp"
     tools:context=".TransaksiActivity">
+=======
+    tools:context=".TransaksiActivity"
+    android:padding="16dp"
+    android:background="@android:color/white">
+>>>>>>> d3858b81b0be092af2311b835fc4c2b5f2ca9d77
 
     <!-- Toolbar -->
     <androidx.appcompat.widget.Toolbar
@@ -16,7 +22,11 @@
         android:background="@color/primary"
         android:elevation="4dp"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+<<<<<<< HEAD
         android:title="@string/transaksi"
+=======
+        android:title="Transaksi"
+>>>>>>> d3858b81b0be092af2311b835fc4c2b5f2ca9d77
         android:titleTextColor="@android:color/white" />
 
     <ScrollView
@@ -24,7 +34,11 @@
         android:layout_height="match_parent"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="64dp"
+<<<<<<< HEAD
         tools:ignore="@layout/item_transaction">
+=======
+        tools:ignore="@layout/item_transaction">/
+>>>>>>> d3858b81b0be092af2311b835fc4c2b5f2ca9d77
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/transactionRecyclerView"
@@ -34,7 +48,10 @@
             android:layout_marginBottom="8dp"
             android:padding="8dp"
             tools:listitem="@layout/item_transaction" />
+<<<<<<< HEAD
 
+=======
+>>>>>>> d3858b81b0be092af2311b835fc4c2b5f2ca9d77
     </ScrollView>
 
     <!-- RecyclerView -->
@@ -48,9 +65,18 @@
         android:layout_centerHorizontal="true"
         android:backgroundTint="@color/primary"
         android:elevation="4dp"
+<<<<<<< HEAD
         android:padding="12dp"
         android:text="@string/btn_tambah_transaksi"
         android:textColor="@android:color/white"
         android:textSize="16sp" />
 
 </RelativeLayout>
+=======
+        android:text="Tambah Transaksi"
+        android:textColor="@android:color/white"
+        android:padding="12dp"
+        android:textSize="16sp" />
+
+</RelativeLayout>
+>>>>>>> d3858b81b0be092af2311b835fc4c2b5f2ca9d77

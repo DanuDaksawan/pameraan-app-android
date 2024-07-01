@@ -10,7 +10,10 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+<<<<<<< HEAD
         android:orientation="vertical"
+=======
+>>>>>>> d3858b81b0be092af2311b835fc4c2b5f2ca9d77
         android:layout_above="@+id/footer_layout">
 
         <LinearLayout
@@ -25,8 +28,12 @@
                 android:layout_marginTop="80dp"
                 android:gravity="center_horizontal"
                 android:orientation="horizontal"
+<<<<<<< HEAD
                 android:paddingHorizontal="16dp"
                 tools:ignore="UselessParent">
+=======
+                android:paddingHorizontal="16dp">
+>>>>>>> d3858b81b0be092af2311b835fc4c2b5f2ca9d77
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -99,7 +106,10 @@
         android:gravity="center_horizontal"
         android:orientation="horizontal"
         android:padding="12dp"
+<<<<<<< HEAD
         tools:ignore="MissingConstraints"
+=======
+>>>>>>> d3858b81b0be092af2311b835fc4c2b5f2ca9d77
         tools:layout_editor_absoluteX="-10dp"
         tools:layout_editor_absoluteY="667dp">
 
@@ -145,7 +155,10 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:queryHint="Search Here...."
+<<<<<<< HEAD
         tools:ignore="MissingConstraints"
+=======
+>>>>>>> d3858b81b0be092af2311b835fc4c2b5f2ca9d77
         tools:layout_editor_absoluteY="16dp" />
 
     <SearchView
@@ -153,10 +166,15 @@
         android:layout_width="386dp"
         android:layout_height="38dp"
         app:layout_constraintEnd_toEndOf="parent"
+<<<<<<< HEAD
         android:background="@drawable/searchview_bg"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
+=======
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+>>>>>>> d3858b81b0be092af2311b835fc4c2b5f2ca9d77
         tools:layout_editor_absoluteY="16dp" />
 
 

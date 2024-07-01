@@ -31,4 +31,8 @@
         android:text="Tanggal Transaksi"
         android:textSize="14sp"
         android:textColor="@android:color/darker_gray" />
+<<<<<<< HEAD
 </LinearLayout>
+=======
+</LinearLayout>
+>>>>>>> d3858b81b0be092af2311b835fc4c2b5f2ca9d77

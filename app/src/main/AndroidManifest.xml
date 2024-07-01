@@ -13,6 +13,7 @@
         android:theme="@style/Theme.IntentAndActivity"
         tools:targetApi="31">
         <activity
+<<<<<<< HEAD
             android:name=".KeranjangActivity"
             android:exported="false" />
         <activity
@@ -22,6 +23,8 @@
             android:name=".TransaksiActivity"
             android:exported="false" />
         <activity
+=======
+>>>>>>> d3858b81b0be092af2311b835fc4c2b5f2ca9d77
             android:name=".SearchActivity"
             android:exported="false" />
         <activity
@@ -32,6 +35,9 @@
             android:exported="false" />
         <activity
             android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TransaksiActivity"
             android:exported="false" />
         <activity
             android:name=".TambahKaryaActivity"
