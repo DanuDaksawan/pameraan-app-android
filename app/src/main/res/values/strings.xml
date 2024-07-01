@@ -40,4 +40,5 @@
     <string name="tambahkan_ke_keranjang">Tambahkan ke Keranjang</string>
     <string name="transaksi">Transaksi</string>
     <string name="btn_tambah_transaksi">Tambah Transaksi</string>
+    <string name="keranjang_saya">Keranjang Saya</string>
 </resources>
