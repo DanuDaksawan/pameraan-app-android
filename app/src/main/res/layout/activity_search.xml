@@ -7,13 +7,11 @@
     android:layout_height="match_parent"
     tools:context=".SearchActivity">
 
+    
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-<<<<<<< HEAD
-        android:orientation="vertical"
-=======
->>>>>>> d3858b81b0be092af2311b835fc4c2b5f2ca9d77
         android:layout_above="@+id/footer_layout">
 
         <LinearLayout
@@ -28,12 +26,8 @@
                 android:layout_marginTop="80dp"
                 android:gravity="center_horizontal"
                 android:orientation="horizontal"
-<<<<<<< HEAD
                 android:paddingHorizontal="16dp"
                 tools:ignore="UselessParent">
-=======
-                android:paddingHorizontal="16dp">
->>>>>>> d3858b81b0be092af2311b835fc4c2b5f2ca9d77
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -43,22 +37,26 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/gambar_1" />
+                        android:src="@drawable/gambar_1"
+                        tools:ignore="ContentDescription" />
 
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/gambar_2" />
+                        android:src="@drawable/gambar_2"
+                        tools:ignore="ContentDescription" />
 
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/gambar_3" />
+                        android:src="@drawable/gambar_3"
+                        tools:ignore="ContentDescription" />
 
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/gambar_4" />
+                        android:src="@drawable/gambar_4"
+                        tools:ignore="ContentDescription" />
 
                 </LinearLayout>
 
@@ -70,22 +68,26 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/gambar_5" />
+                        android:src="@drawable/gambar_5"
+                        tools:ignore="ContentDescription" />
 
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/gambar_6" />
+                        android:src="@drawable/gambar_6"
+                        tools:ignore="ContentDescription" />
 
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/gambar_2" />
+                        android:src="@drawable/gambar_2"
+                        tools:ignore="ContentDescription" />
 
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/gambar_1" />
+                        android:src="@drawable/gambar_1"
+                        tools:ignore="ContentDescription" />
 
                 </LinearLayout>
 
@@ -106,12 +108,9 @@
         android:gravity="center_horizontal"
         android:orientation="horizontal"
         android:padding="12dp"
-<<<<<<< HEAD
-        tools:ignore="MissingConstraints"
-=======
->>>>>>> d3858b81b0be092af2311b835fc4c2b5f2ca9d77
         tools:layout_editor_absoluteX="-10dp"
-        tools:layout_editor_absoluteY="667dp">
+        tools:layout_editor_absoluteY="667dp"
+        tools:ignore="MissingConstraints">
 
         <ImageView
             android:layout_width="24dp"
@@ -155,27 +154,18 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:queryHint="Search Here...."
-<<<<<<< HEAD
-        tools:ignore="MissingConstraints"
-=======
->>>>>>> d3858b81b0be092af2311b835fc4c2b5f2ca9d77
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
 
     <SearchView
         android:id="@+id/searchView"
         android:layout_width="386dp"
         android:layout_height="38dp"
         app:layout_constraintEnd_toEndOf="parent"
-<<<<<<< HEAD
-        android:background="@drawable/searchview_bg"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-=======
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
->>>>>>> d3858b81b0be092af2311b835fc4c2b5f2ca9d77
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

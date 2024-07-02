@@ -40,64 +40,65 @@
                 app:layout_constraintTop_toBottomOf="@id/gambarkursi" />
 
             <TextView
+                android:id="@+id/hargakursi"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:id="@+id/hargakursi"
                 android:paddingHorizontal="32dp"
-                android:text="Rp 329.000"
-                android:textSize="20dp"
+                android:text="@string/rp_329_000"
+                android:textSize="20sp"
                 app:layout_constraintTop_toBottomOf="@id/kursikayu" />
 
 
             <TextView
+                android:id="@+id/jumlah"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingHorizontal="32dp"
-                android:id="@+id/jumlah"
-                app:layout_constraintTop_toBottomOf="@id/hargakursi"
                 android:layout_marginTop="15dp"
+                android:paddingHorizontal="32dp"
                 android:text="@string/img_pilihproduk_jumlahkursi"
-                android:textSize="15sp" />
+                android:textSize="15sp"
+                app:layout_constraintTop_toBottomOf="@id/hargakursi"
+                tools:ignore="MissingConstraints" />
 
             <ImageView
+                android:id="@+id/btnmin"
                 android:layout_width="15dp"
                 android:layout_height="15dp"
-                android:id="@+id/btnmin"
-                app:layout_constraintStart_toEndOf="@id/jumlah"
-                app:layout_constraintTop_toTopOf="@id/jumlah"
-                app:layout_constraintBottom_toBottomOf="@id/jumlah"
                 android:layout_marginStart="220dp"
                 android:importantForAccessibility="no"
-                android:src="@drawable/btnmin" />
+                android:src="@drawable/btnmin"
+                app:layout_constraintBottom_toBottomOf="@id/jumlah"
+                app:layout_constraintStart_toEndOf="@id/jumlah"
+                app:layout_constraintTop_toTopOf="@id/jumlah" />
 
             <TextView
+                android:id="@+id/text_pilihproduk_banyakjumlah"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/text_pilihproduk_banyakjumlah"
                 android:paddingHorizontal="10dp"
-                app:layout_constraintStart_toEndOf="@id/btnmin"
-                app:layout_constraintTop_toTopOf="@id/jumlah"
+                android:text="@string/_0"
+                android:textSize="15sp"
                 app:layout_constraintBottom_toBottomOf="@id/jumlah"
-                android:text="0"
-                android:textSize="15sp" />
+                app:layout_constraintStart_toEndOf="@id/btnmin"
+                app:layout_constraintTop_toTopOf="@id/jumlah" />
 
             <ImageView
                 android:layout_width="15dp"
                 android:layout_height="15dp"
                 android:importantForAccessibility="no"
-                app:layout_constraintStart_toEndOf="@id/text_pilihproduk_banyakjumlah"
-                app:layout_constraintTop_toTopOf="@id/jumlah"
+                android:src="@drawable/btnplus"
                 app:layout_constraintBottom_toBottomOf="@id/jumlah"
-                android:src="@drawable/btnplus" />
+                app:layout_constraintStart_toEndOf="@id/text_pilihproduk_banyakjumlah"
+                app:layout_constraintTop_toTopOf="@id/jumlah" />
 
             <Button
                 android:layout_width="352dp"
                 android:layout_height="40dp"
                 android:layout_marginTop="16dp"
                 android:background="@drawable/buttonroundedfull"
+                android:text="@string/tambahkan_ke_keranjang"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                android:text="@string/tambahkan_ke_keranjang"
                 app:layout_constraintTop_toBottomOf="@id/jumlah" />
 
 
@@ -122,32 +123,37 @@
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:layout_marginHorizontal="20dp"
-            android:src="@drawable/home" />
+            android:src="@drawable/home"
+            tools:ignore="ContentDescription" />
 
         <ImageView
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:layout_marginHorizontal="20dp"
-            android:src="@drawable/search" />
+            android:src="@drawable/search"
+            tools:ignore="ContentDescription" />
 
         <ImageView
+            android:id="@+id/tomboltambah"
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:layout_marginHorizontal="20dp"
             android:src="@drawable/tambah"
-            android:id="@+id/tomboltambah"/>
+            tools:ignore="ContentDescription" />
 
         <ImageView
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:layout_marginHorizontal="20dp"
-            android:src="@drawable/shop" />
+            android:src="@drawable/shop"
+            tools:ignore="ContentDescription" />
 
         <ImageView
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:layout_marginHorizontal="20dp"
-            android:src="@drawable/profile" />
+            android:src="@drawable/profile"
+            tools:ignore="ContentDescription" />
     </LinearLayout>
 
 
